@@ -1,0 +1,26 @@
+*.iml
+.gradle/
+.idea/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+
+# Local QA artifacts and generated exports
+work/
+*.apk
+*.aab
+
+# Local configuration, credentials, and signing material
+.env
+.env.*
+keystore.properties
+*.jks
+*.keystore
+
+# Device-local databases and journals
+*.db
+*.db-shm
+*.db-wal
